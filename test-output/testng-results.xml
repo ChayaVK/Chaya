@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="99591" started-at="2020-04-16T13:02:02 IST" finished-at="2020-04-16T13:03:41 IST">
+    <groups>
+      <group name="my">
+        <method signature="Grouping.a_f()[pri:0, instance:MyProj.Grouping@32d2fa64]" name="a_f" class="MyProj.Grouping"/>
+        <method signature="Grouping.d_f()[pri:0, instance:MyProj.Grouping@32d2fa64]" name="d_f" class="MyProj.Grouping"/>
+      </group> <!-- my -->
+      <group name="group1">
+        <method signature="Grouping.a_f()[pri:0, instance:MyProj.Grouping@32d2fa64]" name="a_f" class="MyProj.Grouping"/>
+        <method signature="Grouping.b_f()[pri:0, instance:MyProj.Grouping@32d2fa64]" name="b_f" class="MyProj.Grouping"/>
+        <method signature="Grouping.c_f()[pri:0, instance:MyProj.Grouping@32d2fa64]" name="c_f" class="MyProj.Grouping"/>
+      </group> <!-- group1 -->
+    </groups>
+    <test name="Test" duration-ms="99591" started-at="2020-04-16T13:02:02 IST" finished-at="2020-04-16T13:03:41 IST">
+      <class name="MyProj.Grouping">
+        <test-method status="PASS" signature="a_f()[pri:0, instance:MyProj.Grouping@32d2fa64]" name="a_f" duration-ms="1" started-at="2020-04-16T13:03:41 IST" finished-at="2020-04-16T13:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_f -->
+        <test-method status="PASS" signature="b_f()[pri:0, instance:MyProj.Grouping@32d2fa64]" name="b_f" duration-ms="0" started-at="2020-04-16T13:03:41 IST" finished-at="2020-04-16T13:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b_f -->
+        <test-method status="PASS" signature="c_f()[pri:0, instance:MyProj.Grouping@32d2fa64]" name="c_f" duration-ms="3" started-at="2020-04-16T13:03:41 IST" finished-at="2020-04-16T13:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_f -->
+        <test-method status="PASS" signature="d_f()[pri:0, instance:MyProj.Grouping@32d2fa64]" name="d_f" duration-ms="1" started-at="2020-04-16T13:03:41 IST" finished-at="2020-04-16T13:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_f -->
+      </class> <!-- MyProj.Grouping -->
+      <class name="MyProj.GroupEx">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:MyProj.GroupEx@436e852b]" name="setUpBrowser" is-config="true" duration-ms="22429" started-at="2020-04-16T13:02:02 IST" finished-at="2020-04-16T13:02:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="a_navigateToPage()[pri:0, instance:MyProj.GroupEx@436e852b]" name="a_navigateToPage" duration-ms="58594" started-at="2020-04-16T13:02:24 IST" finished-at="2020-04-16T13:03:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a_navigateToPage -->
+        <test-method status="PASS" signature="c_loginToURL()[pri:0, instance:MyProj.GroupEx@436e852b]" name="c_loginToURL" duration-ms="18432" started-at="2020-04-16T13:03:23 IST" finished-at="2020-04-16T13:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c_loginToURL -->
+        <test-method status="PASS" signature="d_verifyLogIn()[pri:0, instance:MyProj.GroupEx@436e852b]" name="d_verifyLogIn" duration-ms="79" started-at="2020-04-16T13:03:41 IST" finished-at="2020-04-16T13:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_verifyLogIn -->
+        <test-method status="PASS" signature="quitPage()[pri:0, instance:MyProj.GroupEx@436e852b]" name="quitPage" is-config="true" duration-ms="0" started-at="2020-04-16T13:03:41 IST" finished-at="2020-04-16T13:03:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitPage -->
+      </class> <!-- MyProj.GroupEx -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

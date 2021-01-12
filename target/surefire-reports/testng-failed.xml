@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="MyProj.Grouping">
+        <methods>
+          <include name="a_f"/>
+          <include name="c_f"/>
+          <include name="b_f"/>
+          <include name="d_f"/>
+        </methods>
+      </class> <!-- MyProj.Grouping -->
+      <class name="MyProj.GroupEx">
+        <methods>
+          <include name="a_navigateToPage"/>
+          <include name="c_loginToURL"/>
+          <include name="d_verifyLogIn"/>
+          <include name="setUpBrowser"/>
+          <include name="quitPage"/>
+        </methods>
+      </class> <!-- MyProj.GroupEx -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
